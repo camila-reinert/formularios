@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+
+    <style>
+        .BT1
+        {
+            background-color: aquamarine;
+            width: 100px;
+            height: 70px;
+            font-size: 20px;
+            cursor: pointer
+        }
+        .BT1:hover
+        {
+            background-color: rgb(115, 196, 196);
+        }
+        .BT2
+        {
+            background-color: rgb(12, 126, 88);
+            width: 150px;
+            height: 70px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .BT2:hover
+        {
+            background-color: rgb(233, 105, 105);
+        }
+        .comentario
+        {
+            width: 90%;
+            height: 200px;
+            resize: none;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <fieldset>
+        <legend>Dados do Picolé</legend>
+        Selecione um Sabor:
+        <select>
+            <option>Uva</option>
+            <option>morango</option>
+            <option>limão</option>
+            <option>cupuaçu</option>
+            <option>chocolate</option>
+            <option>milho verde</option>
+        </select>
+        <br>  <br>
+
+        Escolha eu caldas especial:
+        <input type="radio" name="caldas"> Chocolate
+        <input type="radio" name="caldas"> Morango
+        <input type="radio" name="caldas"> Caramelo
+        <br>  <br>
+
+        Escolha a cor da embalagem:
+        <input type="checkbox"> &nbsp; Roxo
+        <input type="checkbox"> &nbsp; Rosa
+        <input type="checkbox"> &nbsp; Preto
+        <input type="checkbox"> &nbsp; Preto
+        <input type="checkbox"> &nbsp; Preto
+        <input type="checkbox"> &nbsp; Verde
+        <input type="checkbox"> &nbsp; Amarelo
+        <input type="checkbox"> &nbsp; Azul
+        <br>  <br>
+
+        Escolha a cor do palito:
+        <input type="color">
+    </fieldset>
+    <fieldset>
+        <legend>Dados de Entrega</legend>
+        Endereço: <input type="text">
+        <br>  <br>
+        Cidade: <input type="text">
+        <br>  <br>
+        Data de Entrega: <input type="date">
+        <br>  <br>
+        comentários: <br>
+        <textarea class="comentario"></textarea>
+    </fieldset>
+    <button class="BT1"> ENVIAR </button>
+    <button class="BT2"> CANCELAR </button>
+</body>
+</html>
