@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade 14</title>
+
+    <style>
+        .texto
+        {
+            width: 90%;
+            height: 200px;
+            resize: none;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        Nome: <input type="text" class=”caixa_larga” id=”nome”>
+        <br>  <br>
+        Endereço: <input type=”text” class=”caixa_larga” id=”endereco”>
+        <br>  <br>
+        Cidade: <input type=”text” class=”caixa_larga” id=”cidade”>
+        <br>  <br>
+        Estado: 
+        <select id=”estado” class=”estado”>
+            <option>São Paulo</option>
+            <option>Paraná</option>
+            <option>Santa Catarina</option>
+            <option>Minas Gerais</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Dados Profissionais</legend>
+        Natureza do Cargo:
+        <input type="radio" name="Cargo">  Gerência
+        <input type="radio" name="Cargo"> Financeiro
+        <input type="radio" name="Cargo">  Recepção
+        <input type="radio" name="Cargo">  Administrativo
+        <input type="radio" name="Cargo"> Juridico
+        <br>  <br>
+        Area de Interesse: 
+        <input type="checkbox"> &nbsp; Computação
+        <input type="checkbox"> &nbsp; Biologia
+        <input type="checkbox"> &nbsp; Meio Ambiente
+        <input type="checkbox"> &nbsp; Engenharia
+        <input type="checkbox"> &nbsp; História
+        <br>  <br>
+        Mini-Curriculo
+        <br>  <br>
+        <textarea class="texto" id="curriculo"> CURRICILO: </textarea>
+    </fieldset>
+        
+</body>
+</html>
